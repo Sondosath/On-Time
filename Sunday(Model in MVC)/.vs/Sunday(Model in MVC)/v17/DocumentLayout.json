@@ -1,7 +1,68 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|c:\\internship\\c#\\.net mvc core\\sunday(model in mvc)\\sunday(model in mvc)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|solutionrelative:sunday(model in mvc)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|c:\\internship\\c#\\.net mvc core\\sunday(model in mvc)\\sunday(model in mvc)\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|solutionrelative:sunday(model in mvc)\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|c:\\internship\\c#\\.net mvc core\\sunday(model in mvc)\\sunday(model in mvc)\\views\\productconteoller\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|solutionrelative:sunday(model in mvc)\\views\\productconteoller\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|c:\\internship\\c#\\.net mvc core\\sunday(model in mvc)\\sunday(model in mvc)\\views\\productconteoller\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|solutionrelative:sunday(model in mvc)\\views\\productconteoller\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|c:\\internship\\c#\\.net mvc core\\sunday(model in mvc)\\sunday(model in mvc)\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|solutionrelative:sunday(model in mvc)\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|c:\\internship\\c#\\.net mvc core\\sunday(model in mvc)\\sunday(model in mvc)\\controllers\\productconteoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|solutionrelative:sunday(model in mvc)\\controllers\\productconteoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|c:\\internship\\c#\\.net mvc core\\sunday(model in mvc)\\sunday(model in mvc)\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|solutionrelative:sunday(model in mvc)\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|c:\\internship\\c#\\.net mvc core\\sunday(model in mvc)\\sunday(model in mvc)\\views\\productconteoller\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|solutionrelative:sunday(model in mvc)\\views\\productconteoller\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|c:\\internship\\c#\\.net mvc core\\sunday(model in mvc)\\sunday(model in mvc)\\models\\mydbcontextproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|solutionrelative:sunday(model in mvc)\\models\\mydbcontextproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|c:\\internship\\c#\\.net mvc core\\sunday(model in mvc)\\sunday(model in mvc)\\views\\productconteoller\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|solutionrelative:sunday(model in mvc)\\views\\productconteoller\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|c:\\internship\\c#\\.net mvc core\\sunday(model in mvc)\\sunday(model in mvc)\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|solutionrelative:sunday(model in mvc)\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|c:\\internship\\c#\\.net mvc core\\sunday(model in mvc)\\sunday(model in mvc)\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|solutionrelative:sunday(model in mvc)\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|c:\\internship\\c#\\.net mvc core\\sunday(model in mvc)\\sunday(model in mvc)\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|solutionrelative:sunday(model in mvc)\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|c:\\internship\\c#\\.net mvc core\\sunday(model in mvc)\\sunday(model in mvc)\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|solutionrelative:sunday(model in mvc)\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|c:\\internship\\c#\\.net mvc core\\sunday(model in mvc)\\sunday(model in mvc)\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0E1460D-7DAA-4C55-A22F-D88BF3409674}|Sunday(Model in MVC)\\Sunday(Model in MVC).csproj|solutionrelative:sunday(model in mvc)\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +70,206 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Sunday(Model in MVC)\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Sunday(Model in MVC)\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T17:25:55.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Views\\ProductConteoller\\Details.cshtml",
+              "RelativeDocumentMoniker": "Sunday(Model in MVC)\\Views\\ProductConteoller\\Details.cshtml",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Views\\ProductConteoller\\Details.cshtml",
+              "RelativeToolTip": "Sunday(Model in MVC)\\Views\\ProductConteoller\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T17:21:26.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Views\\ProductConteoller\\Create.cshtml",
+              "RelativeDocumentMoniker": "Sunday(Model in MVC)\\Views\\ProductConteoller\\Create.cshtml",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Views\\ProductConteoller\\Create.cshtml",
+              "RelativeToolTip": "Sunday(Model in MVC)\\Views\\ProductConteoller\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T17:17:09.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Sunday(Model in MVC)\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Sunday(Model in MVC)\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T17:14:08.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MyDbContextProduct.cs",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Models\\MyDbContextProduct.cs",
+              "RelativeDocumentMoniker": "Sunday(Model in MVC)\\Models\\MyDbContextProduct.cs",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Models\\MyDbContextProduct.cs",
+              "RelativeToolTip": "Sunday(Model in MVC)\\Models\\MyDbContextProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T17:10:51.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Sunday(Model in MVC)\\Models\\Product.cs",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Models\\Product.cs",
+              "RelativeToolTip": "Sunday(Model in MVC)\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T16:58:25.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\appsettings.json",
+              "RelativeDocumentMoniker": "Sunday(Model in MVC)\\appsettings.json",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\appsettings.json",
+              "RelativeToolTip": "Sunday(Model in MVC)\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-24T17:01:45.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Program.cs",
+              "RelativeDocumentMoniker": "Sunday(Model in MVC)\\Program.cs",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Program.cs",
+              "RelativeToolTip": "Sunday(Model in MVC)\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T17:01:07.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Models\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "Sunday(Model in MVC)\\Models\\MyDbContext.cs",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Models\\MyDbContext.cs",
+              "RelativeToolTip": "Sunday(Model in MVC)\\Models\\MyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T15:08:37.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Views\\ProductConteoller\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Sunday(Model in MVC)\\Views\\ProductConteoller\\Edit.cshtml",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Views\\ProductConteoller\\Edit.cshtml",
+              "RelativeToolTip": "Sunday(Model in MVC)\\Views\\ProductConteoller\\Edit.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwBsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T15:00:07.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Views\\Department\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Sunday(Model in MVC)\\Views\\Department\\Edit.cshtml",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Views\\Department\\Edit.cshtml",
+              "RelativeToolTip": "Sunday(Model in MVC)\\Views\\Department\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T14:58:53.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Views\\ProductConteoller\\Index.cshtml",
+              "RelativeDocumentMoniker": "Sunday(Model in MVC)\\Views\\ProductConteoller\\Index.cshtml",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Views\\ProductConteoller\\Index.cshtml",
+              "RelativeToolTip": "Sunday(Model in MVC)\\Views\\ProductConteoller\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T14:58:09.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductConteoller.cs",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Controllers\\ProductConteoller.cs",
+              "RelativeDocumentMoniker": "Sunday(Model in MVC)\\Controllers\\ProductConteoller.cs",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Controllers\\ProductConteoller.cs",
+              "RelativeToolTip": "Sunday(Model in MVC)\\Controllers\\ProductConteoller.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAmwEUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T13:56:53.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Views\\Department\\Details.cshtml",
+              "RelativeDocumentMoniker": "Sunday(Model in MVC)\\Views\\Department\\Details.cshtml",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Views\\Department\\Details.cshtml",
+              "RelativeToolTip": "Sunday(Model in MVC)\\Views\\Department\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T06:42:59.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Views\\Department\\Index.cshtml",
+              "RelativeDocumentMoniker": "Sunday(Model in MVC)\\Views\\Department\\Index.cshtml",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\Sunday(Model in MVC)\\Sunday(Model in MVC)\\Views\\Department\\Index.cshtml",
+              "RelativeToolTip": "Sunday(Model in MVC)\\Views\\Department\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T03:02:55.129Z",
+              "EditorCaption": ""
             }
           ]
         }

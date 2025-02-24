@@ -1,0 +1,38 @@
+﻿<!-- Index.cshtml -->
+@model IEnumerable<Sunday_Model_in_MVC_.Models.Department>
+
+@{
+    ViewData["Title"] = "Departments List";
+}
+
+<h2>Departments</h2>
+<a asp-action="Create" class="btn btn-primary">Add New Department</a>
+
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Courses</th>
+            <th>Instructor</th>
+            <th>Number of Students</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Courses</td>
+                <td>@item.Instructer</td>
+                <td>@item.NumOfStudemts</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details</a>
+                    <a href="@Url.Action("Delete", new { id = @item.Id })" class="btn btn-danger" onclick="return confirm('Are you sure?')">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

@@ -1,0 +1,28 @@
+﻿@model Sunday_Model_in_MVC_.Models.Department
+
+@{
+    ViewData["Title"] = "Create Department";
+}
+
+<h2>Create New Department</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Courses"></label>
+        <input asp-for="Courses" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Instructer"></label>
+        <input asp-for="Instructer" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="NumOfStudemts"></label>
+        <input asp-for="NumOfStudemts" type="number" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-success mt-2">Save</button>
+    <a asp-action="Index" class="btn btn-secondary mt-2">Cancel</a>
+</form>

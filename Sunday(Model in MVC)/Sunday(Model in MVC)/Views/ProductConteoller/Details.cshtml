@@ -1,0 +1,33 @@
+﻿@model Sunday_Model_in_MVC_.Models.Product
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+<a asp-action="Index" class="btn btn-primary">Back to Home</a>
+
+            <div style="text-align:center">
+                <div style="display:flex; gap:30px;">
+                  
+                        <div class="text-center">
+                            <div class="card" style="width: 18rem;">
+                        <img src="@Model.Image" class="card-img-top" alt="...">
+                                <div class="card-body">
+                            <h5 class="card-title">@Model.Name</h5>
+                            <p class="card-text">@Model.Description</p><br>
+                            <h5 class="card-title">@Model.Price</h5>
+
+                            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+                            <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-info">Details</a>
+                                    <a href="@Url.Action("Delete", new { id = @Model.Id })" class="btn btn-danger" onclick="return confirm('Are you sure?')">Delete</a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    
+                </div>
+                <h6>imges from <a href="#"> Freepic </a></h6>
+
+            </div>

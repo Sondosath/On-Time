@@ -1,7 +1,20 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Sunday_Model_in_MVC_.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<MyDbContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("MyConnectionString")));
+
+
+
+// تسجيل الـ DbContext
+builder.Services.AddDbContext<MyDbContextProduct>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
 
 var app = builder.Build();
 
@@ -13,6 +26,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
@@ -22,6 +36,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Department}/{action=Index}/{id?}");
 
 app.Run();

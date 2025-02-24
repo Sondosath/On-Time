@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+<h2>Edit Book</h2>
+@model Sunday_Model_in_MVC_.Models.Department
+
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label>Name</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Courses</label>
+        <input asp-for="Courses" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Instructer</label>
+        <input asp-for="Instructer" class="form-control" />
+    </div>
+    <div cla
+        <div class="form-group">
+        <label>NumOfStudemts</label>
+        <input asp-for="NumOfStudemts" class="form-control" />
+   
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>

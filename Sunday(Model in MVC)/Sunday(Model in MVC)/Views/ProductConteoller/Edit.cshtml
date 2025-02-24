@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+@model Sunday_Model_in_MVC_.Models.Product
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label>Name</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Image</label>
+        <input asp-for="Image" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Description</label>
+        <input asp-for="Description" class="form-control" />
+    </div>
+    <div cla
+        <div class="form-group">
+        <label>Price</label>
+        <input asp-for="Price" class="form-control" />
+
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>

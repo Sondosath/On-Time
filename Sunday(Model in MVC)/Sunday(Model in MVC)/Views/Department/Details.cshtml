@@ -1,0 +1,31 @@
+﻿@model Sunday_Model_in_MVC_.Models.Department
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+<a asp-action="Index" class="btn btn-primary">Back to Home</a>
+
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Courses</th>
+            <th>Instructor</th>
+            <th>Number of Students</th>
+        </tr>
+    </thead>
+    <tbody>
+      
+            <tr>
+            <td>@Model.Name</td>
+            <td>@Model.Courses</td>
+            <td>@Model.Instructer</td>
+            <td>@Model.NumOfStudemts</td>
+                
+            </tr>
+        
+    </tbody>
+</table>
+
