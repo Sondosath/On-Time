@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Extre_task(25-2-2025).props" />
+</Project>
