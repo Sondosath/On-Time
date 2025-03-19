@@ -1,0 +1,801 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MasterPiece.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MasterPiece.gopi2o13wu.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\css\\cart.css",
+      "PackagePath": "staticwebassets\\css\\cart.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\css\\cealender.css",
+      "PackagePath": "staticwebassets\\css\\cealender.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\css\\contact.css",
+      "PackagePath": "staticwebassets\\css\\contact.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\css\\contactUs.css",
+      "PackagePath": "staticwebassets\\css\\contactUs.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\css\\late.css",
+      "PackagePath": "staticwebassets\\css\\late.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\css\\lightbox.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\css\\owl-carousel.css",
+      "PackagePath": "staticwebassets\\css\\owl-carousel.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\css\\pyment.css",
+      "PackagePath": "staticwebassets\\css\\pyment.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\css\\shop.css",
+      "PackagePath": "staticwebassets\\css\\shop.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\css\\style.css.css",
+      "PackagePath": "staticwebassets\\css\\style.css.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\css\\templatemo-hexashop.css",
+      "PackagePath": "staticwebassets\\css\\templatemo-hexashop.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\0b3e72c1de9d19ad5ff9ed276a76d4cd.mp4",
+      "PackagePath": "staticwebassets\\images\\0b3e72c1de9d19ad5ff9ed276a76d4cd.mp4"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\1b3cef8c7b26e1faa00bad3670a2e397.mp4",
+      "PackagePath": "staticwebassets\\images\\1b3cef8c7b26e1faa00bad3670a2e397.mp4"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\1f15d6309611a58036f94390aeac8efc.jpg",
+      "PackagePath": "staticwebassets\\images\\1f15d6309611a58036f94390aeac8efc.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\216417b6f48c7c921851ab658b55fc03.jpg",
+      "PackagePath": "staticwebassets\\images\\216417b6f48c7c921851ab658b55fc03.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\2211075b5ec68ccdd4ab5045d56a5f9b-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\2211075b5ec68ccdd4ab5045d56a5f9b-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\2211075b5ec68ccdd4ab5045d56a5f9b.jpg",
+      "PackagePath": "staticwebassets\\images\\2211075b5ec68ccdd4ab5045d56a5f9b.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\34f99346ecc99d7ff607398ddccae211.jpg",
+      "PackagePath": "staticwebassets\\images\\34f99346ecc99d7ff607398ddccae211.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\514395588709243947.mp4",
+      "PackagePath": "staticwebassets\\images\\514395588709243947.mp4"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\519c18988138d485027a15fd148219c5.jpg",
+      "PackagePath": "staticwebassets\\images\\519c18988138d485027a15fd148219c5.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\5404dd577a5a230c30771497962b6c37.mp4",
+      "PackagePath": "staticwebassets\\images\\5404dd577a5a230c30771497962b6c37.mp4"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\5b592cde8edab5b0b06b5a4d4b5f5a85.mp4",
+      "PackagePath": "staticwebassets\\images\\5b592cde8edab5b0b06b5a4d4b5f5a85.mp4"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\91a27ab59547d7b01beb2be6990ec289.jpg",
+      "PackagePath": "staticwebassets\\images\\91a27ab59547d7b01beb2be6990ec289.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\Screenshot 2025-02-08 001201.jpg",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2025-02-08 001201.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\WhatsApp Video 2025-02-07 at 2.22.00 PM.mp4",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Video 2025-02-07 at 2.22.00 PM.mp4"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\WhatsApp Video 2025-02-07 at 2.25.03 PM.mp4",
+      "PackagePath": "staticwebassets\\images\\WhatsApp Video 2025-02-07 at 2.25.03 PM.mp4"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\aa718fc0fc816b48a0a240d2e723b850.mp4",
+      "PackagePath": "staticwebassets\\images\\aa718fc0fc816b48a0a240d2e723b850.mp4"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\about-img (2).png",
+      "PackagePath": "staticwebassets\\images\\about-img (2).png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\about-img.gif",
+      "PackagePath": "staticwebassets\\images\\about-img.gif"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\about-img.jpg",
+      "PackagePath": "staticwebassets\\images\\about-img.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\agency-img.jpg",
+      "PackagePath": "staticwebassets\\images\\agency-img.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\ballonBokay.jpg",
+      "PackagePath": "staticwebassets\\images\\ballonBokay.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\bdadb30d3e9f7ce4bccc4447cfe7b03a.jpg",
+      "PackagePath": "staticwebassets\\images\\bdadb30d3e9f7ce4bccc4447cfe7b03a.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\boxxx.jpg",
+      "PackagePath": "staticwebassets\\images\\boxxx.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\c6cc7ffed8e20c50f9bfe7b38a1bb5fe-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\c6cc7ffed8e20c50f9bfe7b38a1bb5fe-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\c6cc7ffed8e20c50f9bfe7b38a1bb5fe.jpg",
+      "PackagePath": "staticwebassets\\images\\c6cc7ffed8e20c50f9bfe7b38a1bb5fe.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\c8dedb72258cef138be3a11bf262851a-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\c8dedb72258cef138be3a11bf262851a-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\c8dedb72258cef138be3a11bf262851a.jpg",
+      "PackagePath": "staticwebassets\\images\\c8dedb72258cef138be3a11bf262851a.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\cackBox.jpg",
+      "PackagePath": "staticwebassets\\images\\cackBox.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\cbdefe09cc1d25c5a6e67af4cb7d165f.jpg",
+      "PackagePath": "staticwebassets\\images\\cbdefe09cc1d25c5a6e67af4cb7d165f.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\cele.png",
+      "PackagePath": "staticwebassets\\images\\cele.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\celender.mp4",
+      "PackagePath": "staticwebassets\\images\\celender.mp4"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\client1.jpg",
+      "PackagePath": "staticwebassets\\images\\client1.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\client2.jpg",
+      "PackagePath": "staticwebassets\\images\\client2.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\clock.png",
+      "PackagePath": "staticwebassets\\images\\clock.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\coubl.jpg",
+      "PackagePath": "staticwebassets\\images\\coubl.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\d24aacaaabb9d0ace6a9f8e0f39b186e.jpg",
+      "PackagePath": "staticwebassets\\images\\d24aacaaabb9d0ace6a9f8e0f39b186e.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\dd63b442718eb52789ccaa156b5b273e (1).mp4",
+      "PackagePath": "staticwebassets\\images\\dd63b442718eb52789ccaa156b5b273e (1).mp4"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\ddddddddddddddddd.jpg",
+      "PackagePath": "staticwebassets\\images\\ddddddddddddddddd.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\df3bb35ff55f55f63c4332f03966e082.gif",
+      "PackagePath": "staticwebassets\\images\\df3bb35ff55f55f63c4332f03966e082.gif"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\e8c34cceeb6954483e202c744d0f03b7.jpg",
+      "PackagePath": "staticwebassets\\images\\e8c34cceeb6954483e202c744d0f03b7.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\flooorrrr.jpg",
+      "PackagePath": "staticwebassets\\images\\flooorrrr.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\flowers$baers.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers$baers.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\flowers.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\free.svg",
+      "PackagePath": "staticwebassets\\images\\free.svg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\ggggggggggggggggggggggg.jpg",
+      "PackagePath": "staticwebassets\\images\\ggggggggggggggggggggggg.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\gift1.jpg",
+      "PackagePath": "staticwebassets\\images\\gift1.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\gift2.jpg",
+      "PackagePath": "staticwebassets\\images\\gift2.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\gift3.jpg",
+      "PackagePath": "staticwebassets\\images\\gift3.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\gift4.jpg",
+      "PackagePath": "staticwebassets\\images\\gift4.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\gift5.jpg",
+      "PackagePath": "staticwebassets\\images\\gift5.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\gift6.jpg",
+      "PackagePath": "staticwebassets\\images\\gift6.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\gift7.jpg",
+      "PackagePath": "staticwebassets\\images\\gift7.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\gifts.png",
+      "PackagePath": "staticwebassets\\images\\gifts.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\handMade.jpg",
+      "PackagePath": "staticwebassets\\images\\handMade.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\hero-bg.png",
+      "PackagePath": "staticwebassets\\images\\hero-bg.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\high-quality.svg",
+      "PackagePath": "staticwebassets\\images\\high-quality.svg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\img1.jpg",
+      "PackagePath": "staticwebassets\\images\\img1.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\img2.jpg",
+      "PackagePath": "staticwebassets\\images\\img2.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\img3.jpg",
+      "PackagePath": "staticwebassets\\images\\img3.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\img4.jpg",
+      "PackagePath": "staticwebassets\\images\\img4.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\img5.jpg",
+      "PackagePath": "staticwebassets\\images\\img5.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\lateButLoved.jpg",
+      "PackagePath": "staticwebassets\\images\\lateButLoved.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\line.png",
+      "PackagePath": "staticwebassets\\images\\line.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\logo_classic_beige.png",
+      "PackagePath": "staticwebassets\\images\\logo_classic_beige.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\lovedBox.jpg",
+      "PackagePath": "staticwebassets\\images\\lovedBox.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\next.png",
+      "PackagePath": "staticwebassets\\images\\next.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\p1.jpg",
+      "PackagePath": "staticwebassets\\images\\p1.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\p2.png",
+      "PackagePath": "staticwebassets\\images\\p2.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\p3.png",
+      "PackagePath": "staticwebassets\\images\\p3.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\p4.png",
+      "PackagePath": "staticwebassets\\images\\p4.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\p5.png",
+      "PackagePath": "staticwebassets\\images\\p5.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\p6.png",
+      "PackagePath": "staticwebassets\\images\\p6.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\p7.png",
+      "PackagePath": "staticwebassets\\images\\p7.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\p8.jpg",
+      "PackagePath": "staticwebassets\\images\\p8.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\phone.mp4",
+      "PackagePath": "staticwebassets\\images\\phone.mp4"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\prev.png",
+      "PackagePath": "staticwebassets\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\purse.png",
+      "PackagePath": "staticwebassets\\images\\purse.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\s1.png",
+      "PackagePath": "staticwebassets\\images\\s1.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\s2.png",
+      "PackagePath": "staticwebassets\\images\\s2.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\s3.png",
+      "PackagePath": "staticwebassets\\images\\s3.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\saving-img.png",
+      "PackagePath": "staticwebassets\\images\\saving-img.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\shop.mp4",
+      "PackagePath": "staticwebassets\\images\\shop.mp4"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\slider-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-bg.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\slider-img.gif",
+      "PackagePath": "staticwebassets\\images\\slider-img.gif"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\slider-img.png",
+      "PackagePath": "staticwebassets\\images\\slider-img.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\sliderBackground.jpg",
+      "PackagePath": "staticwebassets\\images\\sliderBackground.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\ssssss.mp4",
+      "PackagePath": "staticwebassets\\images\\ssssss.mp4"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\ssssssssssssssssssss.jpg",
+      "PackagePath": "staticwebassets\\images\\ssssssssssssssssssss.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\team-1.jpg",
+      "PackagePath": "staticwebassets\\images\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\team-2.jpg",
+      "PackagePath": "staticwebassets\\images\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\team-3.jpg",
+      "PackagePath": "staticwebassets\\images\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\team-4.jpg",
+      "PackagePath": "staticwebassets\\images\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\track-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\track-bg.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\truck.svg",
+      "PackagePath": "staticwebassets\\images\\truck.svg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\ttttt2.jpg",
+      "PackagePath": "staticwebassets\\images\\ttttt2.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\tttttt.jpg",
+      "PackagePath": "staticwebassets\\images\\tttttt.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\video-unscreen.gif",
+      "PackagePath": "staticwebassets\\images\\video-unscreen.gif"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\video.mp4",
+      "PackagePath": "staticwebassets\\images\\video.mp4"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\w1.png",
+      "PackagePath": "staticwebassets\\images\\w1.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\w2.png",
+      "PackagePath": "staticwebassets\\images\\w2.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\w3.png",
+      "PackagePath": "staticwebassets\\images\\w3.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\w4.png",
+      "PackagePath": "staticwebassets\\images\\w4.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\wwwwwww.jpg",
+      "PackagePath": "staticwebassets\\images\\wwwwwww.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\ووووووووووو.png",
+      "PackagePath": "staticwebassets\\images\\ووووووووووو.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\js\\cealender.js",
+      "PackagePath": "staticwebassets\\js\\cealender.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\js\\contact.js",
+      "PackagePath": "staticwebassets\\js\\contact.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\js\\contactUs.js",
+      "PackagePath": "staticwebassets\\js\\contactUs.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\js\\custem.js",
+      "PackagePath": "staticwebassets\\js\\custem.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\js\\late.js",
+      "PackagePath": "staticwebassets\\js\\late.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\js\\pyment.js",
+      "PackagePath": "staticwebassets\\js\\pyment.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\js\\service.js",
+      "PackagePath": "staticwebassets\\js\\service.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MasterPiece.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MasterPiece.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MasterPiece.props",
+      "PackagePath": "build\\MasterPiece.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MasterPiece.props",
+      "PackagePath": "buildMultiTargeting\\MasterPiece.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MasterPiece.props",
+      "PackagePath": "buildTransitive\\MasterPiece.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

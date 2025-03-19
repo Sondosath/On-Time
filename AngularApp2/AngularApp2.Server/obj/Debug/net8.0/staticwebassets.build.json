@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "dnKL5ZearWE4xPV3CBlrePYYPYYKz17ltz88eOjq4sE=",
+  "Source": "AngularApp2.Server",
+  "BasePath": "_content/AngularApp2.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\internship\\c#\\.net MVC Core\\AngularApp2\\angularapp2.client\\angularapp2.client.esproj",
+      "Version": 2,
+      "Source": "angularapp2.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

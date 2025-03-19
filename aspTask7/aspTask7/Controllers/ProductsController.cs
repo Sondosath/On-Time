@@ -47,6 +47,11 @@ namespace aspTask7.Controllers
         {
             return View();
         }
+        public IActionResult AdminIndex()
+        {
+            return View();
+        }
+        
 
         // POST: Products/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.

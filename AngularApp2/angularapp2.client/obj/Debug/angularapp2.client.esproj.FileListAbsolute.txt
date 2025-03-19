@@ -1,0 +1,1 @@
+C:\internship\c#\.net MVC Core\AngularApp2\angularapp2.client\obj\Debug\angularapp2.client.esproj.CoreCompileInputs.cache

@@ -6,9 +6,7 @@
 
 <h1 style="color:aqua">Products </h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+
 
 <div style="text-align:center">
     <div style="display:flex; gap:30px;">
@@ -21,10 +19,6 @@
                         <h5 class="card-title">@item.Name</h5>
                         <p class="card-text">@item.Description</p><br>
                         <h5 class="card-title">@item.Price</h5>
-
-                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>
-                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details</a>
-                        <a href="@Url.Action("Delete", new { id = @item.Id })" class="btn btn-danger" onclick="return confirm('Are you sure?')">Delete</a>
 
                     </div>
                 </div>

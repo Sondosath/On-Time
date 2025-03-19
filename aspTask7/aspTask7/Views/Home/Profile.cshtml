@@ -1,33 +1,10 @@
 ﻿@model User
 
-<h2>
-	User Name:
-	<br />
+<h1>Profile</h1>
 
-</h2> @Model.Name</h2>
-<br />
-<br />
-<br />
-<br />
-<h2>
-	Email:
-	<br />
+<p><strong>ID:</strong> @Model.Id</p>
+<p><strong>Name:</strong> @Model.Name</p>
+<p><strong>Email:</strong> @Model.Email</p>
+<p><strong>Role:</strong> @Model.Role</p>
 
-</h2> @Model.Email</h2>
-<br />
-<br />
-<br />
-<h2>
-	Password:
-	<br />
-
-</h2> @Model.Password</h2>
-<br />
-<br />
-<br />
-<h2>
-	Role
-	<br />
-	@Model.Role
-</h2>
-
+<a href="/Home/Edit/@Model.Id">Edit Profile</a>

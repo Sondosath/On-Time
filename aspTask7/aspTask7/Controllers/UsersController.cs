@@ -41,7 +41,10 @@ namespace aspTask7.Controllers
 
             return View(user);
         }
-
+        public IActionResult Details()
+        {
+            return View();
+        }
         // GET: Users/Create
         public IActionResult Create()
         {

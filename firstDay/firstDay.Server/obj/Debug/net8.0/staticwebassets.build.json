@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "JXHoaWJm6N1cZYTblaT4m01e4Hl317shPZ0L5oETEs8=",
+  "Source": "firstDay.Server",
+  "BasePath": "_content/firstDay.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\internship\\c#\\.net MVC Core\\firstDay\\firstday.client\\firstday.client.esproj",
+      "Version": 2,
+      "Source": "firstday.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

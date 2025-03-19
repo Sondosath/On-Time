@@ -1,0 +1,854 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="images/favicon.png" type="">
+    <link href="css/shop.css">
+
+    <title> On Time </title>
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+
+    <!-- fonts style -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <!--owl slider stylesheet -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <!-- font awesome style -->
+    <link href="~/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="~/css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="~/css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div class="hero_area" style=" background-image: url(../../wwwroot/images/sliderBackground.jpg);background-size: cover;">
+
+        <div class="hero_bg_box">
+            <div class="bg_img_box">
+                <img src="../../wwwroot/images/hero-bg.png" alt="">
+            </div>
+        </div>
+        <!-- header section strats -->
+        <header class="header_section">
+            <div class="container-fluid ">
+                <nav class="navbar navbar-expand-lg custom_nav-container ">
+                    <a class="navbar-brand" href="index.html">
+                        <span>
+                            <img src="images/logo_classic_beige.png" style="height: 60px; ">
+
+                        </span>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class=""> </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav  ">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html"> About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="service.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <!-- <a class="nav-link active" href="service.html">LateButLoved</a> -->
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="cealender.html">Calendar </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contactUs.html">ContactUs</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="shop.html">shop</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-action="login" asp-controller="User"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
+                            </li>
+                            <form class="form-inline">
+                                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </button>
+                            </form>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- end header section -->
+        <!-- slider section -->
+        <section class="slider_section ">
+            <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container ">
+                            <div class="row">
+                                <div class="col-md-6 ">
+                                    <div class="detail-box">
+                                        <h1>
+                                            On Time
+
+                                        </h1>
+                                        <h2 style="color: antiquewhite;">Always in my mind </h2>
+                                        <p>
+
+                                            As a ON TIME , we understand that life's most cherished moments deserve to be celebrated, even when time gets the better of us. Here’s what makes us stand out:
+                                        </p>
+                                        <div class="btn-box">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="img-box">
+                                        <img src="images/logo_classic_beige.png" alt="" style="margin-left: 150px;" class="clock-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="container ">
+                            <div class="row">
+                                <div class="col-md-6 ">
+                                    <div class="detail-box">
+                                        <h1>
+                                            Tailored to Your Needs
+                                        </h1>
+                                        <p>
+
+                                            From birthdays and anniversaries to spontaneous gestures of love, we have something for every event, mood, and relationship.
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="img-box">
+                                        <div class="img-box">
+                                            <img src="images/video-unscreen.gif" alt="GIF" style="width: 100%; max-width: 400px; margin-left: 150px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container ">
+                            <div class="row">
+                                <div class="col-md-6 ">
+                                    <div class="detail-box">
+                                        <h1>
+                                            "Late but Loved" Feature
+
+                                        </h1><p>
+                                            Missed the date?<br>
+                                            No problem! Our unique <b>"Late but Loved" </b>option lets you send heartfelt gifts even after the occasion,
+                                            reminding your loved ones how much they mean to you.
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="img-box">
+                                        <img src="images/slider-img.gif" alt="GIF" style="width: 100%; max-width: 400px; margin-left: 150px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ol class="carousel-indicators">
+                    <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+                    <li data-target="#customCarousel1" data-slide-to="1"></li>
+                    <li data-target="#customCarousel1" data-slide-to="2"></li>
+                </ol>
+            </div>
+
+        </section>
+        <!-- end slider section -->
+    </div>
+
+
+    <!-- service section -->
+
+    <section class="service_section layout_padding">
+        <div class="service_container">
+            <div class="container ">
+                <div class="heading_container heading_center">
+                    <h2>
+                        Our <span>Services</span>
+                    </h2>
+                    <p>
+
+                        We take the stress out of gift-giving by offering a curated selection of meaningful and personalized gifts for every occasion.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 ">
+                        <div class="box ">
+                            <div class="img-box">
+                                <img src="images/s1.png" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h5>
+                                    Thoughtful Gifting, Simplified
+                                </h5>
+                                <p>
+                                    We take the stress out of gift-giving by offering
+                                    a curated selection of meaningful and personalized gifts for every occasion.
+                                </p>
+                                <!-- <a href="">
+                                  Read More
+                                </a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="box ">
+                            <div class="img-box">
+                                <img src="images/s2.png" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h5>
+                                    "Late but Loved" Feature
+                                </h5>
+                                <p>
+
+                                    Missed the date? No problem! Our unique "Late but Loved" option lets you send heartfelt gifts even after the occasion, reminding your loved ones how much they mean to you.
+                                </p>
+                                <!-- <a href="">
+                                  Read More
+                                </a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="box ">
+                            <div class="img-box">
+                                <img src="images/s3.png" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h5>
+                                    Celebrate Every Moment
+                                </h5>
+                                <p>
+                                    <BR>
+                                    Whether you’re early, on time, or a little late, we help you make every celebration special.
+                                </p>
+                                <!-- <a href="">
+                                  Read More
+                                </a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-box">
+                    <a href="">
+                        View All
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end service section -->
+    <!-- about section -->
+
+    <section class="about_section layout_padding">
+        <div class="container  ">
+            <div class="heading_container heading_center">
+                <h2>
+                    About <span>Us</span>
+                </h2>
+
+            </div>
+            <div class="row">
+                <div class="col-md-6 ">
+                    <div class="img-box">
+                        <!-- <img src="images/about-img (2).png" alt=""> -->
+                        <video autoplay loop muted style="transform: translate(6%, -8%);height: 333px;">
+                            <source src="/images/WhatsApp Video 2025-02-07 at 2.22.00 PM.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="detail-box">
+                        <h3>
+                            At “On Time “,
+                        </h3>
+                        <p>
+                            We transform every celebration into a cherished memory with carefully selected gifts for all occasions. Whether you're planning in advance or catching up with our Late but Loved feature, we help you express love and appreciation effortlessly. With a focus on customization, convenience, and on-time delivery, we’re dedicated to making your special moments unforgettable.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end about section -->
+    <!-- shop section -->
+
+    <section class="shop_section layout_padding">
+        <div class="container">
+            <div class="heading_container heading_center">
+                <h2 style="color: #37060A;">
+                    Latest Products
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href="">
+                            <div class="img-box">
+                                <img src="images/p1.jpg" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    Ring
+                                </h6>
+                                <h6>
+                                    Price
+                                    <span>
+                                        200 JD
+                                    </span>
+                                </h6>
+                            </div>
+                            <div class="new">
+                                <span>
+                                    New
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href="">
+                            <div class="img-box">
+                                <img src="images/ddddddddddddddddd.jpg" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    Watch
+                                </h6>
+                                <h6>
+                                    Price
+                                    <span>
+                                        70 JD
+                                    </span>
+                                </h6>
+                            </div>
+                            <div class="new">
+                                <span>
+                                    New
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href="">
+                            <div class="img-box">
+                                <img src="images/tttttt.jpg" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    Teddy Bear
+                                </h6>
+                                <h6>
+                                    Price
+                                    <span>
+                                        20 JD
+                                    </span>
+                                </h6>
+                            </div>
+                            <div class="new">
+                                <span>
+                                    New
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href="">
+                            <div class="img-box">
+                                <img src="images/gift1.jpg" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    Flower Bouquet
+                                </h6>
+                                <h6>
+                                    Price
+                                    <span>
+                                        25 JD
+                                    </span>
+                                </h6>
+                            </div>
+                            <div class="new">
+                                <span>
+                                    New
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href="">
+                            <div class="img-box">
+                                <img src="images/ttttt2.jpg" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    Teddy Bear
+                                </h6>
+                                <h6>
+                                    Price
+                                    <span>
+                                        20 JD
+                                    </span>
+                                </h6>
+                            </div>
+                            <div class="new">
+                                <span>
+                                    New
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href="">
+                            <div class="img-box">
+                                <img src="images/gift4.jpg" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    Flower Bouquet
+                                </h6>
+                                <h6>
+                                    Price
+                                    <span>
+                                        20 JD
+                                    </span>
+                                </h6>
+                            </div>
+                            <div class="new">
+                                <span>
+                                    New
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href="">
+                            <div class="img-box">
+                                <img src="images/cbdefe09cc1d25c5a6e67af4cb7d165f.jpg" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    Watch
+                                </h6>
+                                <h6>
+                                    Price
+                                    <span>
+                                        100 JD
+                                    </span>
+                                </h6>
+                            </div>
+                            <div class="new">
+                                <span>
+                                    New
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="box">
+                        <a href="">
+                            <div class="img-box">
+                                <img src="images/d24aacaaabb9d0ace6a9f8e0f39b186e.jpg" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h6>
+                                    Ring
+                                </h6>
+                                <h6>
+                                    Price
+                                    <span>
+                                        450 JD
+                                    </span>
+                                </h6>
+                            </div>
+                            <div class="new">
+                                <span>
+                                    New
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-box">
+                <a href="shop.html">
+                    View All Products
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- end shop section -->
+
+    <section class="about_section layout_padding"
+             style="background-image: url(https://i.pinimg.com/1200x/c8/a9/a0/c8a9a0ada9233f20fc7750fd053bbd6b.jpg);
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;
+         width: 100%;
+         height: 100vh;">
+        <div class="container  ">
+            <div class="row">
+                <div class="col-md-3 ">
+                    <!-- <div class="img-box">
+                      <video autoplay loop muted style="transform: translate(6%, -8%);height: 333px;" >
+                        <source src="/images/dddddddddddddddddddddd.mp4" type="video/mp4">
+                      </video>
+                    </div> -->
+
+                </div>
+                <div class="col-md-6" style="margin-top: 300px; color: #37060A;">
+                    <div class="detail-box">
+                        <h3>
+                            Late But Loved – Because Love Knows No Deadlines!
+                        </h3>
+                        <p>
+                            Forgot a special occasion? Don't worry, we've got you covered! With our Late But Loved service,
+                            we’ll deliver your gift with a smile, making it seem like the delay was on us—not you.
+                            Beautiful surprises are always worth the wait, and we ensure they arrive in the best way possible!
+                        </p>
+                    </div>
+                    <div style="background-color: #37060A; display:inline;">
+                        <div class="btn-box">
+                            <a href="lateButLoved.html" style="color: #37060A; text-decoration: underline;">
+                                Fix it now !
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- team section -->
+    <section class="team_section layout_padding" style="background-color: #f5d5b4;">
+        <div class="container-fluid">
+            <div class="heading_container heading_center">
+                <h2 class="">
+                    Our <span> Team</span>
+                </h2>
+            </div>
+
+            <div class="team_container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="box ">
+                            <div class="img-box">
+                                <img src="images/team-1.jpg" class="img1" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h5>
+                                    Sondos Athamneh
+                                </h5>
+                                <p>
+                                    Marketing Head
+                                </p>
+                            </div>
+                            <div class="social_box">
+                                <a href="#">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="box ">
+                            <div class="img-box">
+                                <img src="images/team-1.jpg" class="img1" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h5>
+                                    Sondos Athamneh
+                                </h5>
+                                <p>
+                                    Marketing Head
+                                </p>
+                            </div>
+                            <div class="social_box">
+                                <a href="#">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="box ">
+                            <div class="img-box">
+                                <img src="images/team-1.jpg" class="img1" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h5>
+                                    Sondos Athamneh
+                                </h5>
+                                <p>
+                                    Marketing Head
+                                </p>
+                            </div>
+                            <div class="social_box">
+                                <a href="#">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="box ">
+                            <div class="img-box">
+                                <img src="images/team-1.jpg" class="img1" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h5>
+                                    Sondos Athamneh
+                                </h5>
+                                <p>
+                                    Marketing Head
+                                </p>
+                            </div>
+                            <div class="social_box">
+                                <a href="#">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end team section -->
+    <!--qoutes section-->
+
+    <section>
+    </section>
+    <!--end of qoutes section-->
+    <!-- info section -->
+
+
+    <section class="info_section layout_padding2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 info_col">
+                    <div class="info_contact">
+                        <h4>
+                            Address
+                        </h4>
+                        <div class="contact_link_box">
+                            <a href="">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <span>
+                                    Irbid - Jordan
+                                </span>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <span>
+                                    Call +07 77524319
+                                </span>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <span>
+                                    OnTime@gmail.com
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="info_social">
+                        <a href="">
+                            <i class="fa fa-facebook" style="color: #37060A;" aria-hidden="true"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 info_col">
+                    <div class="info_detail">
+                        <h4>
+                            Info
+                        </h4>
+                        <p>
+                            As a ON TIME , we understand that life's most cherished moments deserve to be celebrated, even when time gets the better of us. Here’s what makes us stand out:
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2 mx-auto info_col">
+                    <div class="info_link_box">
+                        <h4>
+                            Links
+                        </h4>
+                        <div class="info_links">
+                            <a class="active" href="index.html">
+                                Home
+                            </a>
+                            <a class="" href="about.html">
+                                About
+                            </a>
+                            <a class="" href="service.html">
+                                Services
+                            </a>
+                            <a class="" href="why.html">
+                                Why Us
+                            </a>
+                            <a class="" href="team.html">
+                                Team
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 info_col ">
+                    <h4>
+                        Subscribe
+                    </h4>
+                    <form action="#">
+                        <input type="text" placeholder="Enter email " style="background-color: #f5d5b4;" />
+                        <button type="submit">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end info section -->
+    <!-- footer section -->
+    <section class="footer_section">
+        <div class="container">
+            <p>
+                &copy; <span id="displayYear"></span> All Rights Reserved By
+                <a href="https://html.design/">Free Html Templates</a>
+            </p>
+        </div>
+    </section>
+    <!-- footer section -->
+    <!-- jQery -->
+    <script type="text/javascript" src="~/js/jquery-3.4.1.min.js"></script>
+    <!-- popper js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <!-- bootstrap js -->
+    <script type="text/javascript" src="~/js/bootstrap.js"></script>
+    <!-- owl slider -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    </script>
+    <!-- custom js -->
+    <script type="text/javascript" src="~/js/custem.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+    </script>
+    <!-- End Google Map -->
+</body>
+
+</html>

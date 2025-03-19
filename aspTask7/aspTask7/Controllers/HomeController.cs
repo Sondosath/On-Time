@@ -20,9 +20,13 @@ public class HomeController : Controller
         return RedirectToAction("Index", "Products");
 
     }
+    public IActionResult login()
+    {
+        return View();
+    }
 
     [HttpPost]
-    [ValidateAntiForgeryToken]
+  
     public IActionResult login(User user)
     {
         if (ModelState.IsValid)
@@ -74,6 +78,8 @@ public class HomeController : Controller
 
 
 
+   
+
     public async Task<IActionResult> Profile(int? id)
     {
         if (id == null)
@@ -90,6 +96,9 @@ public class HomeController : Controller
 
         return View(user);
     }
+
+
+
     public IActionResult Logout()
     {
         HttpContext.Session.Clear();

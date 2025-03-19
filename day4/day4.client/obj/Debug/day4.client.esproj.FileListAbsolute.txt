@@ -1,0 +1,1 @@
+C:\internship\c#\.net MVC Core\day4\day4.client\obj\Debug\day4.client.esproj.CoreCompileInputs.cache

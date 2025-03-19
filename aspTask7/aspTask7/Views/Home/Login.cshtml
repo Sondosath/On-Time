@@ -1,27 +1,25 @@
-﻿
-<form method="post" action="HandleLogin">
+﻿@model User
+
+
 
     <h1>Login</h1>
 
 
-    <form method="post" action="/Home/HandleLogin">
+    <form method="post" action="/Home/login">
         <table>
             <tr>
-                <td>User name</td>
-                <td><input type="text" name="user" required /></td>
+                <td>Email</td>
+                <td><input type="text" asp-for="Email"  /></td>
             </tr>
             <tr>
                 <td>Password</td>
-                <td><input type="password" name="pass" required /></td>
+                <td><input type="Password" asp-for="Password"  /></td>
             </tr>
-            <tr>
-                <td></td>
-                <td><input type="checkbox" name="rem" value="yes" /> Remember me</td>
-            </tr>
+          
             <tr>
                 <td></td>
                 <td><input type="submit" value="Login" /></td>
             </tr>
         </table>
     </form>
-</form>
+

@@ -1,0 +1,6 @@
+@task4_post.Server_HostAddress = http://localhost:5212
+
+GET {{task4_post.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

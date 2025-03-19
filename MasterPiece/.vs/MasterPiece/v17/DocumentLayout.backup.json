@@ -1,0 +1,159 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D048F6AE-1BE1-4E5B-8B38-296F4F735DEB}|MasterPiece\\MasterPiece.csproj|c:\\internship\\c#\\.net mvc core\\masterpiece\\masterpiece\\views\\user\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D048F6AE-1BE1-4E5B-8B38-296F4F735DEB}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\user\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D048F6AE-1BE1-4E5B-8B38-296F4F735DEB}|MasterPiece\\MasterPiece.csproj|c:\\internship\\c#\\.net mvc core\\masterpiece\\masterpiece\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D048F6AE-1BE1-4E5B-8B38-296F4F735DEB}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D048F6AE-1BE1-4E5B-8B38-296F4F735DEB}|MasterPiece\\MasterPiece.csproj|c:\\internship\\c#\\.net mvc core\\masterpiece\\masterpiece\\views\\user\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D048F6AE-1BE1-4E5B-8B38-296F4F735DEB}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\user\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D048F6AE-1BE1-4E5B-8B38-296F4F735DEB}|MasterPiece\\MasterPiece.csproj|c:\\internship\\c#\\.net mvc core\\masterpiece\\masterpiece\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D048F6AE-1BE1-4E5B-8B38-296F4F735DEB}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D048F6AE-1BE1-4E5B-8B38-296F4F735DEB}|MasterPiece\\MasterPiece.csproj|c:\\internship\\c#\\.net mvc core\\masterpiece\\masterpiece\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D048F6AE-1BE1-4E5B-8B38-296F4F735DEB}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D048F6AE-1BE1-4E5B-8B38-296F4F735DEB}|MasterPiece\\MasterPiece.csproj|c:\\internship\\c#\\.net mvc core\\masterpiece\\masterpiece\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D048F6AE-1BE1-4E5B-8B38-296F4F735DEB}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D048F6AE-1BE1-4E5B-8B38-296F4F735DEB}|MasterPiece\\MasterPiece.csproj|c:\\internship\\c#\\.net mvc core\\masterpiece\\masterpiece\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D048F6AE-1BE1-4E5B-8B38-296F4F735DEB}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D048F6AE-1BE1-4E5B-8B38-296F4F735DEB}|MasterPiece\\MasterPiece.csproj|c:\\internship\\c#\\.net mvc core\\masterpiece\\masterpiece\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D048F6AE-1BE1-4E5B-8B38-296F4F735DEB}|MasterPiece\\MasterPiece.csproj|solutionrelative:masterpiece\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\Views\\User\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\User\\ResetPassword.cshtml",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\Views\\User\\ResetPassword.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\User\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T14:54:15.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\Views\\User\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\User\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\Views\\User\\ForgotPassword.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\User\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAF8AAAAAAAAAAADwv20AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T14:53:01.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\Program.cs",
+              "RelativeDocumentMoniker": "MasterPiece\\Program.cs",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\Program.cs",
+              "RelativeToolTip": "MasterPiece\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T14:24:44.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "MasterPiece\\Services\\EmailService.cs",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\Services\\EmailService.cs",
+              "RelativeToolTip": "MasterPiece\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T13:09:31.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\Views\\User\\login.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\User\\login.cshtml",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\Views\\User\\login.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\User\\login.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T12:41:42.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MasterPiece\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MasterPiece\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T12:39:45.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "about.cshtml",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\Views\\Home\\about.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\Home\\about.cshtml",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\Views\\Home\\about.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\Home\\about.cshtml",
+              "ViewState": "AgIAAIwCAAAAAAAAAADgvwMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T12:30:02.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MasterPiece\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MasterPiece\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-15T11:49:53.15Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

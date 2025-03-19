@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:52021",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\internship\\c#\\.net MVC Core\\task4-post\\task4-post.Server\\..\\task4-post.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

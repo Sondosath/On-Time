@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BIGMVC_project.props" />
+</Project>

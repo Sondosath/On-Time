@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|c:\\internship\\c#\\.net mvc core\\asptask7\\asptask7\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|solutionrelative:asptask7\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|c:\\internship\\c#\\.net mvc core\\asptask7\\asptask7\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|solutionrelative:asptask7\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|c:\\internship\\c#\\.net mvc core\\asptask7\\asptask7\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|solutionrelative:asptask7\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|c:\\internship\\c#\\.net mvc core\\asptask7\\asptask7\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|solutionrelative:asptask7\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|c:\\internship\\c#\\.net mvc core\\asptask7\\asptask7\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|solutionrelative:asptask7\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|c:\\internship\\c#\\.net mvc core\\asptask7\\asptask7\\views\\home\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -27,16 +19,56 @@
       "RelativeMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|solutionrelative:asptask7\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|c:\\internship\\c#\\.net mvc core\\asptask7\\asptask7\\views\\products\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|solutionrelative:asptask7\\views\\products\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|c:\\internship\\c#\\.net mvc core\\asptask7\\asptask7\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|solutionrelative:asptask7\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|c:\\internship\\c#\\.net mvc core\\asptask7\\asptask7\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|solutionrelative:asptask7\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|c:\\internship\\c#\\.net mvc core\\asptask7\\asptask7\\views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|solutionrelative:asptask7\\views\\home\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|c:\\internship\\c#\\.net mvc core\\asptask7\\asptask7\\views\\home\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|solutionrelative:asptask7\\views\\home\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|c:\\internship\\c#\\.net mvc core\\asptask7\\asptask7\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|solutionrelative:asptask7\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|c:\\internship\\c#\\.net mvc core\\asptask7\\asptask7\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|solutionrelative:asptask7\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|c:\\internship\\c#\\.net mvc core\\asptask7\\asptask7\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|solutionrelative:asptask7\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|c:\\internship\\c#\\.net mvc core\\asptask7\\asptask7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|solutionrelative:asptask7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|c:\\internship\\c#\\.net mvc core\\asptask7\\asptask7\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|solutionrelative:asptask7\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|c:\\internship\\c#\\.net mvc core\\asptask7\\asptask7\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|solutionrelative:asptask7\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|c:\\internship\\c#\\.net mvc core\\asptask7\\asptask7\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|solutionrelative:asptask7\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|c:\\internship\\c#\\.net mvc core\\asptask7\\asptask7\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|solutionrelative:asptask7\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|c:\\internship\\c#\\.net mvc core\\asptask7\\asptask7\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{59588730-35F3-4440-BE59-35E1D6DB7925}|aspTask7\\aspTask7.csproj|solutionrelative:asptask7\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,28 +78,81 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Models\\User.cs",
+              "RelativeDocumentMoniker": "aspTask7\\Models\\User.cs",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Models\\User.cs",
+              "RelativeToolTip": "aspTask7\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T18:19:02.259Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "aspTask7\\Models\\Product.cs",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Models\\Product.cs",
+              "RelativeToolTip": "aspTask7\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T20:12:44.113Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "aspTask7\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "aspTask7\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAuwG4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T18:11:18.659Z",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "aspTask7\\Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "aspTask7\\Views\\Products\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T20:09:56.308Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Home\\Profile.cshtml",
+              "RelativeDocumentMoniker": "aspTask7\\Views\\Home\\Profile.cshtml",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Home\\Profile.cshtml",
+              "RelativeToolTip": "aspTask7\\Views\\Home\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T19:47:59.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditProfile.cshtml",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Home\\EditProfile.cshtml",
+              "RelativeDocumentMoniker": "aspTask7\\Views\\Home\\EditProfile.cshtml",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Home\\EditProfile.cshtml",
+              "RelativeToolTip": "aspTask7\\Views\\Home\\EditProfile.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T18:18:18.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Users\\Details.cshtml",
               "RelativeDocumentMoniker": "aspTask7\\Views\\Users\\Details.cshtml",
@@ -80,46 +165,137 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "aspTask7\\Views\\Products\\Index.cshtml",
               "ToolTip": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Products\\Index.cshtml",
               "RelativeToolTip": "aspTask7\\Views\\Products\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-25T17:21:57.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "aspTask7\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "aspTask7\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwDEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T17:20:41.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "AdminIndex.cshtml",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Products\\AdminIndex.cshtml",
+              "RelativeDocumentMoniker": "aspTask7\\Views\\Products\\AdminIndex.cshtml",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Products\\AdminIndex.cshtml",
+              "RelativeToolTip": "aspTask7\\Views\\Products\\AdminIndex.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T20:11:06.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Home\\Admin.cshtml",
+              "RelativeDocumentMoniker": "aspTask7\\Views\\Home\\Admin.cshtml",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Home\\Admin.cshtml",
+              "RelativeToolTip": "aspTask7\\Views\\Home\\Admin.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvxUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T16:58:40.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "aspTask7\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "aspTask7\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACcAAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T18:35:51.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "aspTask7\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "aspTask7\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwCsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T18:11:18.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Program.cs",
+              "RelativeDocumentMoniker": "aspTask7\\Program.cs",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Program.cs",
+              "RelativeToolTip": "aspTask7\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T18:37:36.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "aspTask7\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Controllers\\HomeController.cs",
               "RelativeToolTip": "aspTask7\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAlwFwAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAkwHIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T16:37:13.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Home\\Register.cshtml",
+              "RelativeDocumentMoniker": "aspTask7\\Views\\Home\\Register.cshtml",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Home\\Register.cshtml",
+              "RelativeToolTip": "aspTask7\\Views\\Home\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T17:00:02.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "aspTask7\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "aspTask7\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T17:01:01.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "aspTask7\\Views\\Home\\Index.cshtml",
@@ -128,45 +304,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-25T16:59:28.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Home\\Register.cshtml",
-              "RelativeDocumentMoniker": "aspTask7\\Views\\Home\\Register.cshtml",
-              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Home\\Register.cshtml",
-              "RelativeToolTip": "aspTask7\\Views\\Home\\Register.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T17:00:02.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Admin.cshtml",
-              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Home\\Admin.cshtml",
-              "RelativeDocumentMoniker": "aspTask7\\Views\\Home\\Admin.cshtml",
-              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Home\\Admin.cshtml",
-              "RelativeToolTip": "aspTask7\\Views\\Home\\Admin.cshtml",
-              "ViewState": "AgIAABQAAAAAAAAAAADwvx8AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T16:58:40.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Home\\Login.cshtml",
-              "RelativeDocumentMoniker": "aspTask7\\Views\\Home\\Login.cshtml",
-              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\aspTask7\\aspTask7\\Views\\Home\\Login.cshtml",
-              "RelativeToolTip": "aspTask7\\Views\\Home\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-25T17:01:01.242Z",
               "EditorCaption": ""
             }
           ]
