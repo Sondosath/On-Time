@@ -1,0 +1,1 @@
+C:\internship\c#\.net MVC Core\AdminDash-task\admindash-task.client\obj\Debug\admindash-task.client.esproj.CoreCompileInputs.cache

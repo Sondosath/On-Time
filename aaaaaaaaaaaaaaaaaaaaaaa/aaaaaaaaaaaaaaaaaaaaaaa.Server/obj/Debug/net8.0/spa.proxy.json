@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:56624",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\internship\\c#\\.net MVC Core\\aaaaaaaaaaaaaaaaaaaaaaa\\aaaaaaaaaaaaaaaaaaaaaaa.Server\\..\\aaaaaaaaaaaaaaaaaaaaaaa.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

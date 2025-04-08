@@ -19,9 +19,9 @@ public partial class Product
 
     public string? ImageUrl { get; set; }
 
+    public virtual ICollection<CartDetail> CartDetails { get; set; } = new List<CartDetail>();
+
     public virtual Category Category { get; set; } = null!;
 
     public virtual ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
-
-    public virtual ICollection<Reminder> Reminders { get; set; } = new List<Reminder>();
 }

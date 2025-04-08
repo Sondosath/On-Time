@@ -1,0 +1,104 @@
+﻿@model User
+
+@{
+    ViewData["Title"] = "Edit Profile";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit User Profile</title>
+    <link href="/css/editProfile.css" rel="stylesheet">
+    <!-- Add Font Awesome CDN link -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css">
+
+</head>
+<body>
+    <div class="page-content page-container" id="page-content">
+        <div class="home-btn">
+            <a href="/Home/Index">
+                <i class="fas fa-home home-icon"></i>
+            </a>
+        </div>
+
+        <div class="padding">
+            <div class="row container d-flex justify-content-center">
+                <div class="col-xl-6 col-md-12">
+                    <div class="card user-card-full">
+                        <div class="row m-l-0 m-r-0">
+                            <!-- User Profile Section -->
+                            <div class="col-sm-4 bg-c-lite-green user-profile">
+                                <div class="card-block text-center text-white">
+                                    <div class="m-b-25">
+                                        <!-- Profile Image Upload Section -->
+                                        <img id="profileImage" src="~/images/@Model.Image" class="img-radius" alt="User-Profile-Image">
+                                        <div class="file-upload">
+                                            <label for="fileUpload">Change Image</label>
+                                            <input type="file" id="fileUpload" name="profileImage" />
+                                        </div>
+                                    </div>
+                                    <h6 class="f-w-600">@Model.Name</h6>
+                                    <p>@Model.Name</p>
+                                </div>
+                            </div>
+
+                            <!-- User Info Section -->
+                            <div class="col-sm-8">
+                                <div class="card-block">
+                                    <h6 class="m-b-20 p-b-5 b-b-default f-w-600">Edit Information</h6>
+
+                                    <form method="post" enctype="multipart/form-data" action="/User/EditProfile/@Model.Id">
+                                        <!-- Name Field -->
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <label for="name" class="m-b-10 f-w-600">Name</label>
+                                                <input type="text" id="name" name="name" class="form-control" value="@Model.Name" onfocus="this.value=''" required>
+                                            </div>
+                                        </div>
+
+                                        <!-- Email Field -->
+                                        <div class="row mt-2">
+                                            <div class="col-sm-12">
+                                                <label for="email" class="m-b-10 f-w-600">Email</label>
+                                                <input type="email" id="email" name="email" class="form-control" value="@Model.Email" onfocus="this.value=''" required>
+                                            </div>
+                                        </div>
+
+                                        <!-- Phone Field -->
+                                        <div class="row mt-2">
+                                            <div class="col-sm-12">
+                                                <label for="phone" class="m-b-10 f-w-600">Phone</label>
+                                                <input type="text" id="phone" name="phone" class="form-control" value="@Model.Phone" onfocus="this.value=''" required>
+                                            </div>
+                                        </div>
+
+                                        <!-- Address Field -->
+                                        <div class="row mt-2">
+                                            <div class="col-sm-12">
+                                                <label for="address" class="m-b-10 f-w-600">Address</label>
+                                                <input type="text" id="address" name="address" class="form-control" value="@Model.Address" onfocus="this.value=''" required>
+                                            </div>
+                                        </div>
+
+                                        <!-- Submit Button -->
+                                        <div class="row mt-4">
+                                            <div class="col-sm-12 text-center">
+                                                <button type="submit" class="btn edit-profile-btn">Save Changes</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

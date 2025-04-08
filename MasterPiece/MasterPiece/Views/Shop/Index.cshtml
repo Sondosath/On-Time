@@ -1,0 +1,454 @@
+﻿@model List<MasterPiece.Models.Category>
+@{
+    ViewData["Title"] = "Index";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Site Metas -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/templatemo-hexashop.css">
+
+    <link rel="stylesheet" href="/css/owl-carousel.css">
+
+    <link rel="stylesheet" href="/css/lightbox.css">
+    <!-- font awesome style -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>
+        On Time
+    </title>
+
+    <!-- slider stylesheet -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="/css/responsive.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="hero_area" style=" background-image: url(../images/sliderBackground.jpg);background-size: cover ;    min-height: 59vh;">
+
+        <div class="hero_bg_box">
+            <div class="bg_img_box">
+                <img src="/images/hero-bg.png" alt="">
+            </div>
+        </div>
+        <!-- header section strats -->
+        <header class="header_section">
+            <div class="container-fluid ">
+                <nav class="navbar navbar-expand-lg custom_nav-container ">
+                    <a class="navbar-brand" href="index.html">
+                        <span>
+                            <img src="/images/logo_classic_beige.png" style="height: 60px; ">
+
+                        </span>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class=""> </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav  ">
+                            <li class="nav-item ">
+                                <a class="nav-link" asp-action="Index" asp-controller="Home">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-action="about" asp-controller="Home"> About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="service.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <!-- <a class="nav-link active" href="service.html">LateButLoved</a> -->
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-action="login" asp-controller="User">Calendar </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-action="ContactUs" asp-controller="Home">Contact Us</a>
+                            </li>
+
+                            <li class="nav-item active">
+                                <a class="nav-link" asp-action="Index" asp-controller="Shop" >shop</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-action="login" asp-controller="User"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " asp-action="Profile" asp-controller="User">Profile</a>
+                            </li>
+                            <form class="form-inline">
+                                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </button>
+                            </form>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- end header section -->
+        <!-- slider section -->
+        <section class="slider_section ">
+            <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container ">
+                            <div class="row">
+                                <div class="col-md-12 ">
+
+                                    <div class="detail-box" style="color: wheat; max-width: 100%;     line-height: 34px;">
+                                        <h1>
+
+
+                                        </h1>
+                                        <h2 style=" font-family: Dancing Script;"> Unique Gifts for Special Moments .. </h2>
+                                        <p>
+
+                                            At our store, we offer a unique collection of gifts that add a touch of magic to every occasion.
+                                            From romantic balloons to elegant flower boxes, we have everything you need to make your
+                                            moments unforgettable. Whether you're looking for a gift for Valentine's Day, an anniversary,
+                                            or any special celebration, we're here to help you find the perfect gift
+                                        </p>
+                                        <div class="btn-box">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- end slider section -->
+    </div>
+
+
+
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="main-banner" id="top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="left-content">
+                        <div class="thumb">
+                            <div class="inner-content ">
+
+                                <video autoplay muted loop class="background-video" style="height: 850px">
+                                    <source src="/images/shop.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- </div> -->
+
+                <div class="col-lg-6">
+                    <div class="right-content">
+                        <div class="row">
+                            @foreach (var category in Model)
+                            {
+                                <div class="col-lg-6">
+                                    <div class="right-first-image">
+
+                                        <div class="thumb">
+
+                                            <div class="inner-content">
+                                                <h4>@category.Name </h4>
+                                                @* <span>Elegant floral arrangements with premium touches</span> *@
+                                            </div>
+                                            <div class="hover-content">
+                                                <div class="inner">
+                                                    <h4>@category.Name</h4>
+                                                    <p>
+                                                        @category.Description
+                                                    </p>
+                                                    <div class="main-border-button">
+                                                        <a asp-controller="Shop" asp-action="CategoryProducts" asp-route-id="@category.Id">Discover More</a>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="/images/@category.ImageUrl">
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--men area start-->
+    <section class="section" id="men">
+        @foreach (var category in Model)
+        {
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6">
+                        <div class="section-heading">
+                            <h2>@category.Name</h2>
+                            <span>@category.Description</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="men-item-carousel">
+                            <div class="owl-men-item owl-carousel owl-loaded owl-drag">
+                                <div class="owl-stage-outer">
+                                    <div class="owl-stage" style="width: 3200px; transform: translate3d(-960px, 0px, 0px); transition: all;">
+                                        @foreach (var product in category.Products)
+                                        {
+                                        <div class="owl-item active" style="width: 290px; margin-right: 30px;">
+                                            <div class="item">
+                                              
+                                                    <div class="thumb">
+                                                        <div class="hover-content">
+                                                            <ul>
+                                                                <li>
+                                                                    <a asp-controller="Shop" asp-action="ProductDetails" asp-route-id="@product.Id" class="btn btn-sm" style="color: #37060a;"><i class="fas fa-eye"></i></a>
+                                                                </li>
+                                                                @* <li><a href="single-product.html"><i class="fa fa-star"></i></a></li> *@
+                                                                <li>
+                                                                    <a asp-controller="Shop" asp-action="AddToCart" asp-route-id="@product.Id" class="btn btn-sm" style="color: #37060a;"><i class="fas fa-cart-plus"></i></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <img src="/images/@product.ImageUrl" alt="@product.Name">
+                                                    </div>
+                                                    <div class="down-content">
+                                                        <h4>@product.Name</h4>
+                                                        <span> @product.Price JD</span>
+                                                        <ul class="stars">
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                            <li><i class="fa fa-star"></i></li>
+                                                        </ul>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                         }
+                                              
+                                          <div class="owl-nav">
+                                              <button type="button" role="presentation" class="owl-prev">
+                                                  <span aria-label="Previous">‹</span>
+                                                  </button>
+                                              <button type="button" role="presentation" class="owl-next">
+                                                  <span aria-label="Next">›</span>
+                                              </button>
+                                          </div>
+                                          <div class="owl-dots">
+                                              <button role="button" class="owl-dot active">
+                                                   <span></span>
+                                               </button>
+                                              <button role="button" class="owl-dot">
+                                                   <span></span>
+                                               </button>
+                                          </div>
+                        </div>
+                        </div>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        }
+    </section>
+  
+    <!-- info section -->
+
+    <section class="info_section layout_padding2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 info_col">
+                    <div class="info_contact">
+                        <h4>
+                            Address
+                        </h4>
+                        <div class="contact_link_box">
+                            <a href="">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <span>
+                                    Irbid - Jordan
+                                </span>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <span>
+                                    Call +07 77524319
+                                </span>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <span>
+                                    OnTime@gmail.com
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="info_social">
+                        <a href="">
+                            <i class="fa fa-facebook" style="color: #37060A;" aria-hidden="true"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 info_col">
+                    <div class="info_detail">
+                        <h4>
+                            Info
+                        </h4>
+                        <p>
+                            As a ON TIME , we understand that life's most cherished moments deserve to be celebrated, even when time gets the better of us. Here’s what makes us stand out:
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2 mx-auto info_col">
+                    <div class="info_link_box">
+                        <h4>
+                            Links
+                        </h4>
+                        <div class="info_links">
+                            <a class="active" href="index.html">
+                                Home
+                            </a>
+                            <a class="" href="about.html">
+                                About
+                            </a>
+                            <a class="" href="service.html">
+                                Services
+                            </a>
+                            <a class="" href="why.html">
+                                Why Us
+                            </a>
+                            <a class="" href="team.html">
+                                Team
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 info_col ">
+                    <h4>
+                        Subscribe
+                    </h4>
+                    <form action="#">
+                        <input type="text" placeholder="Enter email " class="subscribePlaceholder" />
+                        <button type="submit">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end info section -->
+    <!-- footer section -->
+    <section class="footer_section">
+        <div class="container">
+            <p>
+                &copy; <span id="displayYear"></span> All Rights Reserved By
+                <a href="https://html.design/">Free Html Templates</a>
+            </p>
+        </div>
+    </section>
+    <!-- footer section -->
+    <!-- jQery -->
+    <script type="text/javascript" src="~/js/jquery-3.4.1.min.js"></script>
+    <!-- popper js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <!-- bootstrap js -->
+    <script type="text/javascript" src="~/js/bootstrap.js"></script>
+    <!-- owl slider -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    </script>
+    <!-- custom js -->
+    <script type="text/javascript" src="~/js/custem.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+    <!-- End Google Map -->
+    </section>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/owl-carousel.js"></script>
+    <script src="/js/custom.js"></script>
+
+    <script>
+
+        JD(function() {
+            var selectedClass = "";
+            JD("p").click(function(){
+            selectedClass = JD(this).attr("data-rel");
+            JD("#portfolio").fadeTo(50, 0.1);
+                JD("#portfolio div").not("."+selectedClass).fadeOut();
+            setTimeout(function() {
+              JD("."+selectedClass).fadeIn();
+              JD("#portfolio").fadeTo(50, 1);
+            }, 500);
+
+            });
+        });
+
+    </script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    </script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
+

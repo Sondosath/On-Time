@@ -1,0 +1,56 @@
+﻿@model List<MasterPiece.Models.Product>
+@{
+    ViewData["Title"] = "Products by Category";
+}
+
+<style>
+    .product-card {
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+    }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+    .icon-btn {
+        background: none;
+        border: none;
+        color: #37060A;
+        font-size: 1.2rem;
+    }
+
+        .icon-btn:hover {
+            color: #ff9f43;
+        }
+</style>
+
+<h2 style="margin-top: 60px; color:#37060A; margin-bottom:60px">Products in @ViewBag.CategoryName</h2>
+
+<div class="row">
+    @foreach (var product in Model)
+    {
+        <div class="col-md-3 mb-3">
+            <div class="card product-card" onclick="location.href='@Url.Action("ProductDetails", "Shop", new { id = product.Id })'">
+                <img src="~/images/@product.ImageUrl" class="card-img-top" style="height: 200px;" alt="@product.Name">
+                <div class="card-body d-flex flex-column justify-content-between" style="background-color: #fdecda;">
+                    <h5 class="card-title">@product.Name</h5>
+                    <p class="card-text">@product.Price JD</p>
+                    <div class="d-flex justify-content-between mt-2">
+                        <!-- Add To Cart Form with Quantity Input -->
+                        <form asp-controller="Shop" asp-action="AddToCart" method="post" onsubmit="event.stopPropagation();">
+                            <input type="hidden" name="productId" value="@product.Id" />
+                            <input type="number" name="quantity" value="1" min="1" style="width: 60px;" />
+                            <button type="submit" class="icon-btn">
+                                <i class="fas fa-cart-plus"></i>
+                            </button>
+                        </form>
+                        <a asp-controller="Shop" asp-action="ProductDetails" asp-route-id="@product.Id" class="icon-btn" onclick="event.stopPropagation();"><i class="fas fa-eye"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

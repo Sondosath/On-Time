@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:52370",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\internship\\c#\\.net MVC Core\\voacherTask\\voacherTask.Server\\..\\voachertask.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

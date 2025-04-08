@@ -1,0 +1,6 @@
+@voacherTask.Server_HostAddress = http://localhost:5187
+
+GET {{voacherTask.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

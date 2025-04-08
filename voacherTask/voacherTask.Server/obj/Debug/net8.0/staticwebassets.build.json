@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "6//KxrPRpUScnwtclrFz5AFHIZsocqDQdIwybSb3jYA=",
+  "Source": "voacherTask.Server",
+  "BasePath": "_content/voacherTask.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\internship\\c#\\.net MVC Core\\voacherTask\\voachertask.client\\voachertask.client.esproj",
+      "Version": 2,
+      "Source": "voachertask.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

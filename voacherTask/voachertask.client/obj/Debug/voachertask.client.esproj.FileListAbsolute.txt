@@ -1,0 +1,1 @@
+C:\internship\c#\.net MVC Core\voacherTask\voachertask.client\obj\Debug\voachertask.client.esproj.CoreCompileInputs.cache

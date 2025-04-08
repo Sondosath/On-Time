@@ -3,11 +3,13 @@ wwwroot\css\cart.css
 wwwroot\css\cealender.css
 wwwroot\css\contact.css
 wwwroot\css\contactUs.css
+wwwroot\css\editProfile.css
 wwwroot\css\font-awesome.min.css
 wwwroot\css\late.css
 wwwroot\css\lightbox.css
 wwwroot\css\login.css
 wwwroot\css\owl-carousel.css
+wwwroot\css\profile.css
 wwwroot\css\pyment.css
 wwwroot\css\responsive.css
 wwwroot\css\shop.css
@@ -45,6 +47,7 @@ wwwroot\images\cackBox.jpg
 wwwroot\images\cbdefe09cc1d25c5a6e67af4cb7d165f.jpg
 wwwroot\images\cele.png
 wwwroot\images\celender.mp4
+wwwroot\images\ClassicSpring.jpg
 wwwroot\images\client1.jpg
 wwwroot\images\client2.jpg
 wwwroot\images\clock.png
@@ -54,6 +57,7 @@ wwwroot\images\dd63b442718eb52789ccaa156b5b273e (1).mp4
 wwwroot\images\ddddddddddddddddd.jpg
 wwwroot\images\df3bb35ff55f55f63c4332f03966e082.gif
 wwwroot\images\e8c34cceeb6954483e202c744d0f03b7.jpg
+wwwroot\images\ElegantRoseTeddy.jpg
 wwwroot\images\favicon.png
 wwwroot\images\flooorrrr.jpg
 wwwroot\images\flowers$baers.jpg
@@ -191,3 +195,9 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\uploads\0f1cd91a-8f1d-4fee-bd40-814a130c5826.png
+wwwroot\uploads\478cd5fc-a43e-4645-92e5-ec87f8b07d5c.jpg
+wwwroot\uploads\d344ac9a-adf3-47f7-92e6-0e5c01d7cc20.png
+wwwroot\uploads\default.jpg
+wwwroot\uploads\ElegantRoseTeddy.jpg
+wwwroot\uploads\f2b13ccc-5b12-4838-b0c4-f6580acab65c.jpg

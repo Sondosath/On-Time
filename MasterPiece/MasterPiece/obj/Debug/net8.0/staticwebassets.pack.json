@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\css\\contactUs.css"
     },
     {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\css\\editProfile.css",
+      "PackagePath": "staticwebassets\\css\\editProfile.css"
+    },
+    {
       "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
     },
@@ -43,6 +47,10 @@
     {
       "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\css\\owl-carousel.css",
       "PackagePath": "staticwebassets\\css\\owl-carousel.css"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\css\\profile.css",
+      "PackagePath": "staticwebassets\\css\\profile.css"
     },
     {
       "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\css\\pyment.css",
@@ -127,6 +135,14 @@
     {
       "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\91a27ab59547d7b01beb2be6990ec289.jpg",
       "PackagePath": "staticwebassets\\images\\91a27ab59547d7b01beb2be6990ec289.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\ClassicSpring.jpg",
+      "PackagePath": "staticwebassets\\images\\ClassicSpring.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\ElegantRoseTeddy.jpg",
+      "PackagePath": "staticwebassets\\images\\ElegantRoseTeddy.jpg"
     },
     {
       "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\images\\Screenshot 2025-02-08 001201.jpg",
@@ -775,6 +791,30 @@
     {
       "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\uploads\\0f1cd91a-8f1d-4fee-bd40-814a130c5826.png",
+      "PackagePath": "staticwebassets\\uploads\\0f1cd91a-8f1d-4fee-bd40-814a130c5826.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\uploads\\478cd5fc-a43e-4645-92e5-ec87f8b07d5c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\478cd5fc-a43e-4645-92e5-ec87f8b07d5c.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\uploads\\ElegantRoseTeddy.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ElegantRoseTeddy.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\uploads\\d344ac9a-adf3-47f7-92e6-0e5c01d7cc20.png",
+      "PackagePath": "staticwebassets\\uploads\\d344ac9a-adf3-47f7-92e6-0e5c01d7cc20.png"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\uploads\\default.jpg",
+      "PackagePath": "staticwebassets\\uploads\\default.jpg"
+    },
+    {
+      "Id": "C:\\internship\\c#\\.net MVC Core\\MasterPiece\\MasterPiece\\wwwroot\\uploads\\f2b13ccc-5b12-4838-b0c4-f6580acab65c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\f2b13ccc-5b12-4838-b0c4-f6580acab65c.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MasterPiece.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

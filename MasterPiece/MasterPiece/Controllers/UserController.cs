@@ -5,6 +5,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MasterPiece.Services;
 using MasterPiece.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages;
+using Microsoft.AspNetCore.Cryptography.KeyDerivation;
+using System.Security.Cryptography;
+
 
 
 namespace MasterPiece.Controllers
@@ -18,7 +23,7 @@ namespace MasterPiece.Controllers
         {
             _emailService = emailService;
             _context = context;
-            _emailService = emailService;
+            
         }
 
         // --------- login ---------
@@ -27,39 +32,79 @@ namespace MasterPiece.Controllers
         {
             return View();
         }
+
+
+
+
+        // -------------- Login ---------------
         [HttpPost]
         public async Task<IActionResult> login(User model)
         {
-            //if (!ModelState.IsValid)
-            //    return View(model);
-
-            var User = await _context.Users
+            var user = await _context.Users
                 .FirstOrDefaultAsync(h => h.Email == model.Email && h.Password == model.Password);
 
-            if (User == null)
+            if (user == null)
             {
                 ModelState.AddModelError("", "Invalid email or password");
                 return View(model);
             }
 
-
             HttpContext.Session.SetString("UserLoggedIn", "true");
-            HttpContext.Session.SetInt32("HrID", User.Id);
-            HttpContext.Session.SetString("HrName", User.Name ?? ""); 
-            HttpContext.Session.SetString("HrEmail", User.Email ?? "");
-           
+            HttpContext.Session.SetInt32("UserId", user.Id);
+            HttpContext.Session.SetString("UserName", user.Name ?? "Unknown");
+            HttpContext.Session.SetString("UserEmail", user.Email ?? "No Email");
+            HttpContext.Session.SetString("UserPhone", user.Phone ?? "No Phone");
+            HttpContext.Session.SetString("UserAddress", user.Address ?? "No address provided");
+            HttpContext.Session.SetString("UserImage", user.Image ?? "/uploads/default.jpg");
 
             return RedirectToAction("Index", "Home");
         }
+
+
+
+
+
+
+        // --------- profile --------------------
+
+        public IActionResult Profile()
+        {
+            var UserId = HttpContext.Session.GetInt32("UserId");
+
+            
+
+            if (UserId == null)
+            {
+                return RedirectToAction("Login"); // إذا لم يكن هناك جلسة، إعادة توجيه إلى صفحة تسجيل الدخول
+            }
+
+            var user = _context.Users.FirstOrDefault(u => u.Id == UserId);
+            if (user == null)
+            {
+                return RedirectToAction("Login"); // إذا لم يتم العثور على المستخدم في قاعدة البيانات
+            }
+
+      
+
+            return View(user);
+        }
+
+
+
 
         // --------- Logout ---------
+
         public IActionResult Logout()
         {
-
-            HttpContext.Session.Remove("UserLoggedIn");
+            HttpContext.Session.Clear(); // مسح الجلسة
             return RedirectToAction("Index", "Home");
 
         }
+    
+
+
+
+      
 
 
         // --------- ForgotPassword ---------
@@ -106,12 +151,12 @@ namespace MasterPiece.Controllers
         [HttpGet]
         public IActionResult ResetPassword()
         {
-            // استرجاع البريد الإلكتروني من السيشن
+          
             string email = HttpContext.Session.GetString("ResetEmail");
 
             if (string.IsNullOrEmpty(email))
             {
-                return RedirectToAction("ForgotPassword"); // إذا لم يكن هناك بريد مخزن، أعده إلى صفحة نسيان كلمة المرور
+                return RedirectToAction("ForgotPassword"); 
             }
 
             return View();
@@ -124,13 +169,13 @@ namespace MasterPiece.Controllers
 
             if (!string.IsNullOrEmpty(email))
             {
-                // البحث عن المستخدم في قاعدة البيانات
+                
                 var User = _context.Users.FirstOrDefault(h => h.Email == email);
            
 
                 if (User != null)
                 {
-                    User.Password = newPassword; // تحديث كلمة المرور
+                    User.Password = newPassword; 
                 }
                 
                 else
@@ -139,8 +184,8 @@ namespace MasterPiece.Controllers
                     return View();
                 }
 
-                _context.SaveChanges(); // حفظ التغييرات في قاعدة البيانات
-                HttpContext.Session.Remove("ResetEmail"); // مسح البريد من السيشن بعد الاستخدام
+                _context.SaveChanges(); 
+                HttpContext.Session.Remove("ResetEmail"); 
 
                 ViewBag.Message = "Your password has been reset successfully!";
             }
@@ -155,12 +200,29 @@ namespace MasterPiece.Controllers
             return View();
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Register(User model)
-        {
-            if (!ModelState.IsValid)
-                return View("login", model);
 
+
+
+
+        // ------- Register -------------
+
+ 
+
+        [HttpPost]
+        public async Task<IActionResult> Register(User model, IFormFile profilePic)
+        {
+           
+            if (!ModelState.IsValid)
+            {
+                var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage);
+                foreach (var error in errors)
+                {
+                    Console.WriteLine("Validation Error: " + error); // طباعة الأخطاء في الـ Console
+                }
+                return View("login", model);
+            }
+
+            // التأكد من أن الإيميل غير مسجل مسبقًا
             var existingUser = await _context.Users.FirstOrDefaultAsync(u => u.Email == model.Email);
             if (existingUser != null)
             {
@@ -168,31 +230,155 @@ namespace MasterPiece.Controllers
                 return View("login", model);
             }
 
+            if (string.IsNullOrEmpty(model.Phone))
+            {
+                model.Phone = "000-000-0000";
+            }
+                // معالجة رفع الصورة
+                if (profilePic != null && profilePic.Length > 0)
+            {
+                var allowedExtensions = new[] { ".jpg", ".jpeg", ".png" };
+              
+
+                var extension = Path.GetExtension(profilePic.FileName).ToLower();
+                if (!allowedExtensions.Contains(extension))
+                {
+                    ModelState.AddModelError("profilePic", "The file type is not supported. Please upload a .jpg, .jpeg, or .png file.");
+                    
+                    return View("login", model);
+                }
+
+
+                var fileName = Guid.NewGuid().ToString() + extension;
+                var filePath = Path.Combine("wwwroot/uploads", fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await profilePic.CopyToAsync(stream);
+                }
+
+                model.Image = "/uploads/" + fileName;
+            }
+            else
+            {
+                model.Image = "/uploads/default.jpg";
+            }
+
+            // تشفير كلمة المرور
+            model.Password = HashPassword(model.Password);
+
+            // حفظ المستخدم في قاعدة البيانات
             _context.Users.Add(model);
             await _context.SaveChangesAsync();
 
+            Console.WriteLine("User Registered Successfully!");
             return RedirectToAction("login");
         }
-        // GET: UserController/Edit/5
-        public ActionResult Edit(int id)
+
+        private string HashPassword(string password)
         {
-            return View();
+            byte[] salt = new byte[128 / 8];
+            using (var rng = RandomNumberGenerator.Create())
+            {
+                rng.GetBytes(salt);
+            }
+            return Convert.ToBase64String(KeyDerivation.Pbkdf2(
+                password: password,
+                salt: salt,
+                prf: KeyDerivationPrf.HMACSHA256,
+                iterationCount: 10000,
+                numBytesRequested: 256 / 8));
         }
 
-        // POST: UserController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+
+
+
+
+
+
+
+       
+        //------------Edit profile ------------
+        public IActionResult EditProfile(int id)
         {
-            try
+            var user = _context.Users.Find(id);
+            if (user == null)
             {
-                return RedirectToAction(nameof(Index));
+                return NotFound();
             }
-            catch
-            {
-                return View();
-            }
+
+            return View(user);
         }
+
+
+
+
+        [HttpPost]
+        public async Task<IActionResult> EditProfile(User model, IFormFile profilePic)
+        {
+            int? userId = HttpContext.Session.GetInt32("UserId");
+            if (userId == null)
+                return RedirectToAction("login");
+
+            var user = await _context.Users.FindAsync(userId);
+            if (user == null)
+                return RedirectToAction("login");
+
+            // تحديث البيانات الشخصية
+            user.Name = model.Name;
+            user.Email = model.Email;
+            user.Phone = model.Phone;
+            user.Address = model.Address;
+
+            // إذا تم رفع صورة جديدة
+            if (profilePic != null && profilePic.Length > 0)
+            {
+                var allowedExtensions = new[] { ".jpg", ".jpeg", ".png" };
+               
+
+                var extension = Path.GetExtension(profilePic.FileName).ToLower();
+                if (!allowedExtensions.Contains(extension))
+                {
+                    ModelState.AddModelError("profilePic", "The file type is not supported. Please upload a .jpg, .jpeg, or .png file.");
+                    return View("Profile", user);
+                }
+
+
+                // حذف الصورة القديمة إذا لم تكن الصورة الافتراضية
+                if (!string.IsNullOrEmpty(user.Image) && user.Image != "/uploads/default.jpg")
+                {
+                    var oldFilePath = Path.Combine("wwwroot", user.Image.TrimStart('/'));
+                    if (System.IO.File.Exists(oldFilePath))
+                        System.IO.File.Delete(oldFilePath);
+                }
+
+                // حفظ الصورة الجديدة
+                var fileName = Guid.NewGuid().ToString() + extension;
+                var filePath = Path.Combine("wwwroot/uploads", fileName);
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await profilePic.CopyToAsync(stream);
+                }
+
+                user.Image = "/uploads/" + fileName;
+            }
+
+            _context.Users.Update(user);
+            await _context.SaveChangesAsync();
+
+            // تحديث الجلسة بعد التعديل
+            HttpContext.Session.SetString("UserName", user.Name ?? "Unknown");
+            HttpContext.Session.SetString("UserEmail", user.Email ?? "No Email");
+            HttpContext.Session.SetString("UserPhone", user.Phone ?? "No Phone");
+            HttpContext.Session.SetString("UserAddress", user.Address ?? "No address provided");
+            HttpContext.Session.SetString("UserImage", user.Image ?? "/uploads/default.jpg");
+
+            return RedirectToAction("Profile");
+        }
+
+
+
+
 
         // GET: UserController/Delete/5
         public ActionResult Delete(int id)

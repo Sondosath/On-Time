@@ -1,0 +1,195 @@
+﻿body {
+    background-color: #f4f7f6;
+}
+
+.padding {
+    padding: 3rem !important;
+}
+
+.user-card-full {
+    overflow: hidden;
+}
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    border: none;
+    margin-bottom: 30px;
+}
+
+.m-r-0 {
+    margin-right: 0px;
+}
+
+.m-l-0 {
+    margin-left: 0px;
+}
+
+.user-card-full .user-profile {
+    border-radius: 5px 0 0 5px;
+}
+
+.bg-c-lite-green {
+    background: linear-gradient(to right, #842029, #6c1e1b);
+}
+
+.user-profile {
+    padding: 20px 0;
+}
+
+.card-block {
+    padding: 1.25rem;
+}
+
+.m-b-25 {
+    margin-bottom: 25px;
+}
+
+.img-radius {
+    border-radius: 5px;
+}
+
+h6 {
+    font-size: 14px;
+    color: #333;
+}
+
+.card .card-block p {
+    line-height: 25px;
+}
+
+@media only screen and (min-width: 1400px) {
+    p {
+        font-size: 14px;
+    }
+}
+
+.b-b-default {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+.p-b-5 {
+    padding-bottom: 5px !important;
+}
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
+.m-t-40 {
+    margin-top: 20px;
+}
+
+.text-muted {
+    color: #919aa3 !important;
+}
+
+.f-w-600 {
+    font-weight: 600;
+}
+
+.edit-profile-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #842029;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    border: none;
+}
+
+    .edit-profile-btn:hover {
+        background-color: #6c1e1b;
+    }
+
+.user-card-full .social-link li {
+    display: inline-block;
+}
+
+    .user-card-full .social-link li a {
+        font-size: 20px;
+        margin: 0 10px 0 0;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+
+/* Style for file upload input */
+.file-upload {
+    margin-top: 15px;
+}
+
+    .file-upload input[type="file"] {
+        display: none;
+    }
+
+    .file-upload label {
+        padding: 10px;
+        background-color: #6c1e1b;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .file-upload label:hover {
+            background-color: #842029;
+        }
+
+/* Styling form inputs */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+/* Style for home button (top-right corner) */
+.home-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+    .home-btn .home-icon {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        transition: transform 0.3s;
+    }
+
+        .home-btn .home-icon:hover {
+            transform: scale(1.1);
+        }
+
+/* Style for home button (top-right corner) using Font Awesome */
+.home-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+    .home-btn .home-icon {
+        font-size: 30px; /* Font size for the home icon */
+        color: #842029;
+        transition: color 0.3s;
+        cursor: pointer;
+    }
+
+        .home-btn .home-icon:hover {
+            color: #6c1e1b; /* Change color when hovered */
+        }
+س

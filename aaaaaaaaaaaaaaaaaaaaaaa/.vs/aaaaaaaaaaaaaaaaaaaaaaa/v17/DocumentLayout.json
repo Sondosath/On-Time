@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\internship\\c#\\.net MVC Core\\aaaaaaaaaaaaaaaaaaaaaaa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D470018-8FB0-4381-8871-47B230707B4E}|aaaaaaaaaaaaaaaaaaaaaaa.Server\\aaaaaaaaaaaaaaaaaaaaaaa.Server.csproj|c:\\internship\\c#\\.net mvc core\\aaaaaaaaaaaaaaaaaaaaaaa\\aaaaaaaaaaaaaaaaaaaaaaa.server\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D470018-8FB0-4381-8871-47B230707B4E}|aaaaaaaaaaaaaaaaaaaaaaa.Server\\aaaaaaaaaaaaaaaaaaaaaaa.Server.csproj|solutionrelative:aaaaaaaaaaaaaaaaaaaaaaa.server\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D470018-8FB0-4381-8871-47B230707B4E}|aaaaaaaaaaaaaaaaaaaaaaa.Server\\aaaaaaaaaaaaaaaaaaaaaaa.Server.csproj|c:\\internship\\c#\\.net mvc core\\aaaaaaaaaaaaaaaaaaaaaaa\\aaaaaaaaaaaaaaaaaaaaaaa.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4D470018-8FB0-4381-8871-47B230707B4E}|aaaaaaaaaaaaaaaaaaaaaaa.Server\\aaaaaaaaaaaaaaaaaaaaaaa.Server.csproj|solutionrelative:aaaaaaaaaaaaaaaaaaaaaaa.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D470018-8FB0-4381-8871-47B230707B4E}|aaaaaaaaaaaaaaaaaaaaaaa.Server\\aaaaaaaaaaaaaaaaaaaaaaa.Server.csproj|c:\\internship\\c#\\.net mvc core\\aaaaaaaaaaaaaaaaaaaaaaa\\aaaaaaaaaaaaaaaaaaaaaaa.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D470018-8FB0-4381-8871-47B230707B4E}|aaaaaaaaaaaaaaaaaaaaaaa.Server\\aaaaaaaaaaaaaaaaaaaaaaa.Server.csproj|solutionrelative:aaaaaaaaaaaaaaaaaaaaaaa.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\internship\\c#\\.net MVC Core\\aaaaaaaaaaaaaaaaaaaaaaa\\aaaaaaaaaaaaaaaaaaaaaaa.Server\\Models\\MyDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:aaaaaaaaaaaaaaaaaaaaaaa.Server\\Models\\MyDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aaaaaaaaaaaaaaaaaaaaaaa\\aaaaaaaaaaaaaaaaaaaaaaa.Server\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "aaaaaaaaaaaaaaaaaaaaaaa.Server\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\aaaaaaaaaaaaaaaaaaaaaaa\\aaaaaaaaaaaaaaaaaaaaaaa.Server\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "aaaaaaaaaaaaaaaaaaaaaaa.Server\\Controllers\\ValuesController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAjwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:11:56.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aaaaaaaaaaaaaaaaaaaaaaa\\aaaaaaaaaaaaaaaaaaaaaaa.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "aaaaaaaaaaaaaaaaaaaaaaa.Server\\appsettings.json",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\aaaaaaaaaaaaaaaaaaaaaaa\\aaaaaaaaaaaaaaaaaaaaaaa.Server\\appsettings.json",
+              "RelativeToolTip": "aaaaaaaaaaaaaaaaaaaaaaa.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-08T09:10:34.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aaaaaaaaaaaaaaaaaaaaaaa\\aaaaaaaaaaaaaaaaaaaaaaa.Server\\Program.cs",
+              "RelativeDocumentMoniker": "aaaaaaaaaaaaaaaaaaaaaaa.Server\\Program.cs",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\aaaaaaaaaaaaaaaaaaaaaaa\\aaaaaaaaaaaaaaaaaaaaaaa.Server\\Program.cs",
+              "RelativeToolTip": "aaaaaaaaaaaaaaaaaaaaaaa.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:09:44.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\internship\\c#\\.net MVC Core\\aaaaaaaaaaaaaaaaaaaaaaa\\aaaaaaaaaaaaaaaaaaaaaaa.Server\\Models\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "aaaaaaaaaaaaaaaaaaaaaaa.Server\\Models\\MyDbContext.cs",
+              "ToolTip": "C:\\internship\\c#\\.net MVC Core\\aaaaaaaaaaaaaaaaaaaaaaa\\aaaaaaaaaaaaaaaaaaaaaaa.Server\\Models\\MyDbContext.cs",
+              "RelativeToolTip": "aaaaaaaaaaaaaaaaaaaaaaa.Server\\Models\\MyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:09:30.893Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

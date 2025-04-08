@@ -13,13 +13,15 @@ public partial class User
 
     public string Password { get; set; } = null!;
 
-    public string? Phone { get; set; }
+    public string Phone { get; set; } = null!;
+
+    public string? Address { get; set; }
+
+    public string? Image { get; set; }
 
     public DateTime? CreatedAt { get; set; }
 
-    public virtual ICollection<Address> Addresses { get; set; } = new List<Address>();
+    public virtual ICollection<Cart> Carts { get; set; } = new List<Cart>();
 
     public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
-
-    public virtual ICollection<Reminder> Reminders { get; set; } = new List<Reminder>();
 }

@@ -13,11 +13,13 @@ public partial class Order
 
     public decimal TotalAmount { get; set; }
 
-    public string? Status { get; set; }
+    public string Status { get; set; } = null!;
+
+    public string? TrackingNumber { get; set; }
 
     public virtual ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
 
-    public virtual ICollection<TrackingDetail> TrackingDetails { get; set; } = new List<TrackingDetail>();
+    public virtual ICollection<Payment> Payments { get; set; } = new List<Payment>();
 
     public virtual User User { get; set; } = null!;
 }

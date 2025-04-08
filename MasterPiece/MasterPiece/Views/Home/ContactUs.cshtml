@@ -1,0 +1,201 @@
+﻿@model MasterPiece.Models.ContactU
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On time Contact</title>
+    <link href="~/css/contactUs.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="~/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <a asp-action="Index" asp-controller="Home" class="home-btn">
+        <i class="fa-solid fa-house"></i>
+    </a>
+
+    <small>Enter message (optional) and click button "Send"</small>
+
+    <div class="wrapper centered">
+        <article class="letter">
+            <form asp-action="ContactUs" asp-controller="Home" method="post">
+                <div class="side">
+                    <h1>Contact us</h1>
+                    <p>
+                        <textarea asp-for="Message" name="Message" placeholder="Your message"></textarea>
+                    </p>
+                </div>
+                <div class="side">
+                    <p>
+                        <input asp-for="Name" name="Name" type="text" placeholder="Your name" required>
+                    </p>
+                    <p>
+                        <input asp-for="Email" name="Email" type="email" placeholder="Your email" required>
+                    </p>
+                    <p>
+                        <button id="sendLetter"  type="submit">Send</button>
+                    </p>
+                </div>
+            </form>
+        </article>
+        <div class="envelope front"></div>
+        <div class="envelope back"></div>
+    </div>
+
+    <p class="result-message centered">Thank you for your message</p>
+
+    <script src="~/js/contactUs.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var form = document.querySelector("form");
+
+            if (form) {
+                form.addEventListener("submit", function (e) {
+                    e.preventDefault();  // منع إرسال النموذج بالطريقة الافتراضية
+
+                    var name = document.querySelector("input[placeholder='Your name']").value;
+                    var email = document.querySelector("input[placeholder='Your email']").value;
+                    var message = document.querySelector("textarea").value;
+
+                    // تحقق من أن جميع الحقول مليئة
+                    if (!name || !email || !message) {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Error',
+                            text: 'All fields are required.',
+                            confirmButtonColor: '#37060A',
+                                background: '#fff',
+                                titleColor: '#37060A',
+                                textColor: '#37060A',// لون النص
+                            confirmButtonText: 'Try Again',
+                            customClass: {
+                                popup: 'custom-popup',  // تخصيص المربع
+                                title: 'custom-title',
+                                content: 'custom-content',
+                                confirmButton: 'custom-confirm-btn'
+                            }
+                        });
+                        return;
+                    }
+
+                    // إرسال البيانات عبر AJAX
+                    $.ajax({
+                        type: "POST",
+                        url: "/Home/ContactUs",
+                        data: { Name: name, Email: email, Message: message },
+                        success: function (response) {
+                            if (response.success) {
+                                Swal.fire({
+                                    icon: 'success',
+                                    title: 'Success',
+                                    text: response.message,
+                                    confirmButtonColor: '#37060A',
+                                background: '#fff',
+                                titleColor: '#37060A',
+                                textColor: '#37060A',
+                                    confirmButtonText: 'OK',
+                                    customClass: {
+                                        popup: 'custom-popup',
+                                        title: 'custom-title',
+                                        content: 'custom-content',
+                                        confirmButton: 'custom-confirm-btn'
+                                    }
+                                }).then(() => {setTimeout(() => {
+                window.location.href = "/Home/Index";
+            }, 5000);
+                                });
+                            } else {
+                                Swal.fire({
+                                    icon: 'error',
+                                    title: 'Error',
+                                    text: response.message,
+                                    confirmButtonColor: '#37060A',
+                                background: '#fff',
+                                titleColor: '#37060A',
+                                textColor: '#37060A',
+                                    confirmButtonText: 'Try Again',
+                                    customClass: {
+                                        popup: 'custom-popup',
+                                        title: 'custom-title',
+                                        content: 'custom-content',
+                                        confirmButton: 'custom-confirm-btn'
+                                    }
+                                });
+                            }
+                        },
+                        error: function () {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Error',
+                                text: 'Something went wrong. Please try again later.',
+                                confirmButtonColor: '#37060A',
+                                background: '#fff',
+                                titleColor: '#37060A',
+                                textColor: '#37060A',
+                                confirmButtonText: 'OK',
+                                customClass: {
+                                    popup: 'custom-popup',
+                                    title: 'custom-title',
+                                    content: 'custom-content',
+                                    confirmButton: 'custom-confirm-btn'
+                                }
+                            });
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+
+    <style>
+        /* تخصيص المربع (Popup) ليكون أصغر */
+        .custom-popup {
+            border-radius: 10px;
+            font-family: 'Arial', sans-serif;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            width: 350px !important; /* تحديد العرض ليكون أصغر */
+        }
+
+        .custom-title {
+            font-size: 22px; /* تخصيص حجم العنوان */
+            color: #37060A;
+        }
+
+        .custom-content {
+            font-size: 16px; /* تخصيص حجم النص */
+            color: #37060A;
+        }
+
+        .custom-confirm-btn {
+            background-color: #37060A !important; /* تخصيص لون الزر */
+            color: #fff;
+            font-weight: bold;
+            border-radius: 5px;
+            padding: 10px 20px;
+        }
+
+            .custom-confirm-btn:hover {
+                background-color: #37060A !important; /* تغيير اللون عند التمرير */
+            }
+    </style>
+
+
+
+
+</body>
+</html>

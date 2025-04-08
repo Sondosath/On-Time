@@ -23,6 +23,7 @@
 
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css">
 
     <!-- fonts style -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -89,54 +90,57 @@
       <!-- header section strats -->
       <header class="header_section">
         <div class="container-fluid ">
-          <nav class="navbar navbar-expand-lg custom_nav-container ">
-            <a class="navbar-brand" href="index.html">
-              <span>
-                <img src="images/logo_classic_beige.png" style="height: 60px; ">
-  
-              </span>
-            </a>
-  
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class=""> </span>
-            </button>
-  
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav  ">
-                <li class="nav-item ">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="about.html"> About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="service.html">Services</a>
-                  </li>
-                <li class="nav-item">
-                  <!-- <a class="nav-link active" href="service.html">LateButLoved</a> -->
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="cealender.html">Calendar </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contactUs.html">ContactUs</a>
-                </li>
-                
-                <li class="nav-item">
-                  <a class="nav-link" href="shop.html">shop</a>
-                </li>
-                
-                <li class="nav-item">
-                  <a class="nav-link" href="login.html"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
-                </li>
-                <form class="form-inline">
-                  <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
-                    <i class="fa fa-search" aria-hidden="true"></i>
-                  </button>
-                </form>
-              </ul>
-            </div>
-          </nav>
+                <nav class="navbar navbar-expand-lg custom_nav-container ">
+                    <a class="navbar-brand" href="index.html">
+                        <span>
+                            <img src="/images/logo_classic_beige.png" style="height: 60px; ">
+
+                        </span>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class=""> </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav  ">
+                            <li class="nav-item ">
+                                <a class="nav-link" asp-action="Index" asp-controller="Home">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" asp-action="about" asp-controller="Home"> About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="service.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <!-- <a class="nav-link active" href="service.html">LateButLoved</a> -->
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-action="login" asp-controller="User">Calendar </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-action="ContactUs" asp-controller="Home">Contact Us</a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a class="nav-link" asp-action="Index" asp-controller="Shop">shop</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-action="login" asp-controller="User"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " asp-action="Profile" asp-controller="User">Profile</a>
+                            </li>
+                            <form class="form-inline">
+                                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </button>
+                            </form>
+                        </ul>
+                    </div>
+                </nav>
         </div>
       </header>
       <!-- end header section -->
